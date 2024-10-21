@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+    <tram number="21">
+        
+        <ticket_price>2 zl</ticket_price>
+        <stop1>Narzymskiego</stop1>
+        <stop2>Rynek główny</stop2>
+        <passengers>34</passengers>
+
+    </tram>
+    <bus number="501">
+        <ticket_price>5 zl</ticket_price>
+        <stop1>Narzymskiego</stop1>
+        <stop2>Pilotów</stop2>
+        <passengers>69</passengers>
+    </bus>
+    <car id="1">
+        <year>2004</year>
+        <mileage>270231</mileage>
+        <make>Peuegot</make>
+        <model>307</model>
+    </car>
+</transports>
