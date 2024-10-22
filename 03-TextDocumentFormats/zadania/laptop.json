@@ -1,0 +1,10 @@
+{
+"Brand":"Dell",
+"model":"Inspiron 15",
+"year":2023,
+"istouchscreen":false,
+"devices":["touchpad","webcam"],
+"storage":500,
+"bluetooth":true,
+"ram":16
+}
