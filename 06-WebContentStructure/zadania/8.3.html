@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Form</title>
+</head>
+<body>
+    <h1>Patient Data Form</h1>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label >Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="height">Height (cm):</label><br>
+        <input type="number" id="height" name="height"><br><br>
+        
+        <label for="weight">Weight (kg):</label><br>
+        <input type="number" id="weight" name="weight"><br><br>
+        
+        <label for="Date of birth">Date of birth:</label><br>
+        <input type="date" id="DateOfBirth" name="DateOfBirth"><br><br>
+        
+        <label for="Place of birth">Place of birth:</label><br>
+        <input type="text" id="PlaceOfBirth" name="PlaceOfBirth"><br><br>
+        
+        <label for="Ilnesses">Ilnesses:</label><br>
+        
+        <input type="checkbox" id="ilness1" name="ilness1" value="cold">
+        <label for="ilness1"> Przeziębienie</label><br>
+
+        <input type="checkbox" id="ilness2" name="ilness2" value="Grypa">
+        <label for="ilness2"> Grypa</label><br>
+        
+        <input type="checkbox" id="ilness3" name="ilness3" value="HIV">
+        <label for="ilness3"> HIV</label><br>
+        
+        <input type="checkbox" id="ilness4" name="ilness4" value="AIDS">
+        <label for="ilness4"> AIDS</label><br><br>
+        
+        <label for="Notes">Notes:</label><br>
+        <textarea id="Notes" name="Notes">
+        </textarea> <br><br>
+
+        <button type="button">Ok</button>
+        <button type="button">Cancel</button>
+    </form>
+</body>
+</html>
