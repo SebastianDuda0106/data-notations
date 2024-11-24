@@ -7,8 +7,26 @@
 </head>
 <body>
     <form>
-        <label for="age">Age:</label><br>
-        <input type="number" name="age" id="age">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age"><br>
+        <label for="Gender">Gender:</label> <br>
+        <input type="radio" name="male" id="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="female" id="gender" value="female">
+        <label for="female">Female</label><br>
+        <label for="Chatgpt">How often do you use ChatGPT?</label>
+        <select name="Chatgpt" id="Chatgpt">
+            <option value="never">never</option>
+            <option value="rarely">rarely</option>
+            <option value="occasionally">occasionally</option>
+            <option value="often">often</option>
+            <option value="constantly">constantly</option>
+        </select><br>
+        <label for="description">Describe shortly your benefits from using AI</label><br>
+        <textarea name="description" id="description"></textarea>
+        
+        <button type="button">Ok</button>
+        <button type="button">Cancel</button>
     </form>   
 </body>
 </html>
