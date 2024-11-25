@@ -1,0 +1,23 @@
+th {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+td {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    border: dashed darkblue 1px;
+    width: 25%;
+}
+
+table {
+    padding: 30px;
+    border-collapse: collapse;
+    border: dashed darkblue 1px;
+}
+
+tr:hover {
+    color: lightblue;
+    background-color: black;
+}

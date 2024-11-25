@@ -1,0 +1,19 @@
+div{
+    margin-bottom: 15px;
+    font-family: Arial,Verdana;
+}
+input[type="submit"] {
+    background-color: black;
+    color: greenyellow;
+    font-family: cursive;
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+input,
+select,
+textarea{
+    border: 2px black solid;
+    width: 100%;
+}

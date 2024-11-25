@@ -1,0 +1,40 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    background-color:chocolate;
+}
+td,th {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px black solid;
+    
+    }
+th {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+input,
+textarea,
+select {
+    text-align: center;
+    width: 98%;
+}
+div{
+    margin-top: 20px;
+    border: 2px solid cadetblue;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 2cap;
+    background-color: lightblue;
+}
+form{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 3cap;
+    background-color: blue;
+}
